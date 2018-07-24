@@ -20,7 +20,7 @@ Readme text below modified from: [Gemini README] and subject to [Gemini License]
 
 1. Navigate into your local poster directory and run `make` to build the poster
 
-1. `make clean` will delete all build-related files including the poster, allowing you to re-run `make`
+1. `make clean` will delete all build-related files including the poster, allowing you to re-run `make` as needed.
 
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
