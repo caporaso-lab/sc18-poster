@@ -1,4 +1,4 @@
-# SC-18 poster
+# SC-18 Poster
 ## Copyright (c) 2018 Caporaso Lab
 Details in LICENSE.md
 
@@ -18,7 +18,9 @@ Readme text below modified from: [Gemini README] and subject to [Gemini License]
 
 1. Copy the files in this repository (or clone the repository)
 
-1. Run `make` to build the poster
+1. Navigate into your local poster directory and run `make` to build the poster
+
+1. `make clean` will delete all build-related files including the poster, allowing you to re-run `make`
 
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
