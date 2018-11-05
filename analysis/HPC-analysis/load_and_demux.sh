@@ -12,7 +12,7 @@ qiime tools import \
 
 # demux...
 qiime demux emp-paired \
-  --m-barcodes-file ..\sample-metadata.tsv \
+  --m-barcodes-file ../sample-metadata.tsv \
   --m-barcodes-column BarcodeSequence \
   --i-seqs emp-paired-end-sequences.qza \
   --o-per-sample-sequences demux \
