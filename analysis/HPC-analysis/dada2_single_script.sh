@@ -4,7 +4,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --time=72:00:00
 
-module load qiime2/2018.6
+module load qiime2/2018.8
 
 qiime dada2 denoise-single \
   --i-demultiplexed-seqs data-single/demux.qza \
